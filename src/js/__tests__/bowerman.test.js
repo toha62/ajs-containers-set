@@ -31,7 +31,7 @@ test.each([
   [''],
   ['D'],
   ['Dark Knight'],
-])('should throws on uncorrect name: %s', (name) => {
+])('should throws on uncorrect name: %s', name => {
   expect(() => {
     // eslint-disable-next-line no-new
     new Bowerman(name);
